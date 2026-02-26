@@ -45,6 +45,29 @@ namespace COMP003A.LectureActivity7
                 Console.WriteLine(names[i]);
             } 
             
+            // Part D and E : input and try-catch
+            
+            Console.Write("\nEnter a number between 1 and 3: ");
+            string input = Console.ReadLine();
+
+            try
+            {
+                int choice = int.Parse(input);
+
+                if (choice >= 1 && choice <= 3)
+                {
+                    Console.WriteLine("Valid choice");
+                }
+                else
+                {
+                    Console.WriteLine("Number out of range.");
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid number entered.");
+            }
         }
     }
 }
+
