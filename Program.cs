@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Reflection.Metadata;
-using System.Text.Json.Serialization;
 
 namespace COMP003A.LectureActivity7
 {
@@ -70,4 +67,13 @@ namespace COMP003A.LectureActivity7
         }
     }
 }
+/*
+1. Why is input validation preferred over try-catch when possible?
+-It prevets errors before they can occur while also avoiding reduced performance from exceptions.
+2. Why is try-catch still necessary in some cases?
+-This helps ensure the program doesn't crash when users enter unexpected inputs that validation doesn't catch.
+3. How did debugging help you understand loop behavior?
+-Debugging enables us to see how the loop variables change during each iteration. It also helped make clear the way 
+lists and array elements are used. 
+*/
 
