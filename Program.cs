@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection.Metadata;
+using System.Text.Json.Serialization;
 
 namespace COMP003A.LectureActivity7
 {
@@ -41,7 +43,7 @@ namespace COMP003A.LectureActivity7
             for (int i = 0; i < names.Count; i++)
             {
                 Console.WriteLine(names[i]);
-            }
+            } 
             
         }
     }
