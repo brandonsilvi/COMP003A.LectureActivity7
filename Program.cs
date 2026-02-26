@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata;
 
 namespace COMP003A.LectureActivity7
 {
@@ -16,6 +17,21 @@ namespace COMP003A.LectureActivity7
             for (int i = 0; i < scores.Length; i++)
             {
                 Console.WriteLine(scores[i]);
+            }
+            
+            // ----------- B) List
+
+            List<string> names = new List<string>();
+
+            names.Add("Justin");
+            names.Add("Brian");
+            names.Add("Liam");
+
+            Console.WriteLine("\nList calues using foreach:");
+
+            foreach (string name in names)
+            {
+                Console.WriteLine(name);
             }
         }
     }
