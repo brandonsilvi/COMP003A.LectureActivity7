@@ -33,6 +33,16 @@ namespace COMP003A.LectureActivity7
             {
                 Console.WriteLine(name);
             }
+            
+            // -------- C) for with List
+            
+            Console.WriteLine("\nList values using for loop:");
+
+            for (int i = 0; i < names.Count; i++)
+            {
+                Console.WriteLine(names[i]);
+            }
+            
         }
     }
 }
