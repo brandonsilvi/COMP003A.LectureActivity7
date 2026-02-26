@@ -14,7 +14,7 @@ namespace COMP003A.LectureActivity7
 
             int[] scores = { 85, 90, 708, 92, 88 };
             
-            Console.WriteLine("Array values using for loop");
+            Console.WriteLine("Array values using for loop:");
 
             for (int i = 0; i < scores.Length; i++)
             {
@@ -29,7 +29,7 @@ namespace COMP003A.LectureActivity7
             names.Add("Brian");
             names.Add("Liam");
 
-            Console.WriteLine("\nList calues using foreach:");
+            Console.WriteLine("\nList values using foreach:");
 
             foreach (string name in names)
             {
